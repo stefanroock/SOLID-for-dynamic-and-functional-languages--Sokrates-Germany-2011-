@@ -1,0 +1,5 @@
+The system should be connected to Twitter. Therefore the Twitter names of the users have to be stored.
+
+1. What are valid implementations that conform to the OCP (Open Closed Principle)?
+2. The code violates the DIP (Dependency Inversion Principle). Why? What are possible solutions that conform to the DIP?
+

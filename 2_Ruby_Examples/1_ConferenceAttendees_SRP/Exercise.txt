@@ -1,0 +1,5 @@
+We want to introduce Students as discounted participants. They should pay only 20% or the regular price. 
+
+1. What has to be changed in the code to implement the new feature?
+2. The existing code violates the SRP (Single Responsibility Principle). Why?
+3. What are possible refactorings to make the code conform to the SRP? Is the implementation of the Student feature now easier?
