@@ -1,0 +1,4 @@
+1. The existing code violates the LSP (Liskov Substitution Principle). Why?
+2. What are possible refactorings to make the code conform to the LSP?
+3. Find some examples of your real world code where the LSP applies.
+
