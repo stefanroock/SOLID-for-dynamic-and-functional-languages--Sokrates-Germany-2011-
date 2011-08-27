@@ -3,12 +3,12 @@ public class User {
 	private long id;
 	private String name;
 	
-	public User(id, name) {
+	public User(long id, String name) {
 		this.id = id;
 		this.name = name;
 	}
 	
-	public getName() {
+	public String getName() {
 		return this.name;
 	}
 	
@@ -23,7 +23,7 @@ public class User {
 	 * Faked load method that should be sufficient for the example.
 	 */
 	public static User load(long id) {
-		System.out.println("Load User with ID " + getID());
+		System.out.println("Load User with ID " + id);
 		return new User(id, "user with id " + id);
 	}
 	

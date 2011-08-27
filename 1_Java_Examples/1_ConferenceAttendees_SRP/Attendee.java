@@ -3,7 +3,7 @@ public class Attendee {
 	private String name;
 	private AttendeeType type;
 
-	public void Attendee(String name, AttendeeType type) {
+	public Attendee(String name, AttendeeType type) {
 		this.name = name;
 		this.type = type;
 	}

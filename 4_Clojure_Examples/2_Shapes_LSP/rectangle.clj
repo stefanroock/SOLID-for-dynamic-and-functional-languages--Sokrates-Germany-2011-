@@ -9,3 +9,7 @@
 
 (defn make-rectangle-with-new-lengths [rectangle horizontal-length vertical-length]
 	(make-rectangle (:x rectangle) (:y rectangle) horizontal-length vertical-length))
+
+(defn draw-square [rectangle color]
+	(println "This is a " color " rectangle at pos " (:x rectangle) "," (:y rectangle) 
+				   " with horizontal side length " (:horizontal-length rectangle) " and vertical side length " (:vertical-length rectangle)))

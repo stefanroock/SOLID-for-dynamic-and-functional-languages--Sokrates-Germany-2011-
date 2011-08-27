@@ -1,6 +1,6 @@
-import java.util.List;
+import java.util.*;
 
-public CustomerSearch {
+public class CustomerSearch {
 	
 	private List<Customer> customers; 
 	
@@ -8,16 +8,16 @@ public CustomerSearch {
 		this.customers = customers;
 	}
 	
-	public List<Customers> findByName(String name) {
-		List<Customers> result = new ArrayList<Customer>();
-		iterator = this.customers.iterator();
+	public List<Customer> findByName(String name) {
+		List<Customer> result = new ArrayList<Customer>();
+		Iterator<Customer> iterator = this.customers.iterator();
 		while (iterator.hasNext()) {
-			customer = iterator.next;
-			if (customer.name.startsWith(name)) {
+			Customer customer = iterator.next();
+			if (customer.getName().startsWith(name)) {
 				result.add(customer);
 			}
 		}
-		return customer;
+		return result;
 	}
 	
 }

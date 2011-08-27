@@ -7,8 +7,8 @@ public class Main {
 		scale(sqr,2,3);
 	}
 	
-	private void scale(Rectangle rect, int horizontalScaleFactor, int verticalScaleFactor) {
-		rect.setSideLength(rect.getHorizontalLength() * horizontalFactor, rect.getVerticalLength() * verticalFactor);
+	private static void scale(Rectangle rect, int horizontalScaleFactor, int verticalScaleFactor) {
+		rect.setSideLengths(rect.getHorizontalLength() * horizontalScaleFactor, rect.getVerticalLength() * verticalScaleFactor);
 	}
 	
 }

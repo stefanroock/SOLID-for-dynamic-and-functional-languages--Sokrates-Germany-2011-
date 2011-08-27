@@ -7,6 +7,6 @@
 (defn make-speaker [name]
 	(make-attendee name :speaker))
 
-(defn make-organizator [name]
+(defn make-organizer [name]
 	(make-attendee name :organizer))
 	

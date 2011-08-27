@@ -1,4 +1,4 @@
-public Enum AttendeeType {
+public enum AttendeeType {
 	
 	Speaker, Organizer, Participant;
 	

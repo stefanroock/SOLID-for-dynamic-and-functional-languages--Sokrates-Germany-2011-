@@ -1,7 +1,0 @@
-1. The existing code violates the ISP (Interface Segregation Principle). Why?
-2. What are possible refactorings to make the code conform to the ISP?
-3. Does the existing code violate the SRP (Single Responsibility Principle)? Why?
-4. If so: What are possible refactorings to make the code conform to the SRP?
-5. The existing code violates the DIP (Dependency Inversion Principle). Why?
-6. What are possible refactorings to make the code conform to the DIP?
-
