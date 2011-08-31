@@ -1,3 +1,5 @@
+(ns rectangle)
+
 (defn make-rectangle [x, y, horizontal-length, vertical-length]
 	{:x x, :y y, :horizontal-length horizontal-length, :vertical-length vertical-length})
 

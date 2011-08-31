@@ -1,0 +1,14 @@
+ISP
+===
+1. Does the code violates the ISP (Interface Segregation Principle)? If so, why?
+2. If so: What are possible refactorings to make the code conform to the ISP?
+
+SRP
+===
+3. Does the existing code violate the SRP (Single Responsibility Principle)? If so, why?
+4. If so: What are possible refactorings to make the code conform to the SRP?
+
+DIP
+===
+5. Does the existing code violate the DIP (Dependency Inversion Principle). If so, why?
+6. If so: What are possible refactorings to make the code conform to the DIP?

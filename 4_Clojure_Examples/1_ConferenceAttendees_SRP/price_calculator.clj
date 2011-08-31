@@ -1,3 +1,5 @@
+(ns price_calculator)
+
 (def REGULAR-PRICE 1000)
 
 (defn calculate-price [attendee]

@@ -1,3 +1,5 @@
+(ns square)
+
 (defn make-square [x y side-length]
 	(make-rectangle x y side-length side-length))
 

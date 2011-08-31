@@ -1,3 +1,5 @@
+(ns user)
+
 (defn make-user [id name]
 	{:id id, :name name})
 		

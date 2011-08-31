@@ -1,3 +1,5 @@
+(ns attendee)
+
 (defn make-attendee [name type]
 	{:name name, :type type})
 

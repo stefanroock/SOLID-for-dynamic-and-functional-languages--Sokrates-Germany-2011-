@@ -1,9 +1,9 @@
-(require "attendee")
-(require "price_calculator")
+(use 'attendee)
+(use 'price_calculator)
 
 (def stefan (make-attendee "Stefan" :participant))
 (def markus (make-attendee "Markus" :speaker))
-(def andreas (make-attendeee "Andreas" :organizer))
+(def andreas (make-attendee "Andreas" :organizer))
 
 (println "Price for regular participant: " (calculate-price stefan))
 (println "Price for speaker: " (calculate-price markus))

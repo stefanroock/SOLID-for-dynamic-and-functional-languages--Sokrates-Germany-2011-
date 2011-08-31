@@ -1,3 +1,9 @@
+(use 'shape)
+(use 'rectangle)
+(use 'square)
+
+(println make-shape ::rest [1 2 3])
+
 (defn scale [shape horizontal-scale-factor vertical-scale-factor]
 	(make-rectangle-with-new-lengths (* horizontal-scale-factor (:horizontal-length shape)) 
 								                   (* vertical-shape-factor (:vertical-length shape))))
